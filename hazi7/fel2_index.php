@@ -46,7 +46,7 @@ if (isset($_POST['add_to_cart'])) {
 }
 
 if (isset($_POST['view_cart'])) {
-    header('Location: cart.php');
+    header('Location: fel2_cart.php');
     exit();
 }
 ?>
